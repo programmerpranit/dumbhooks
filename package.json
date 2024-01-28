@@ -16,11 +16,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gapon2401/my-react-typescript-package.git"
+    "url": "git+https://github.com/programmerpranit/dumbhooks.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "hooks",
+    "react-hooks",
+    "state-management"
+  ],
+  "author": "Pranit Patil",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16"
+  },
   "devDependencies": {
     "@types/react": "^18.2.48",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
